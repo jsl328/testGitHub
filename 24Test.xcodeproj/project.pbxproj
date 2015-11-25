@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75C7FC751C059911005024E1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C7FC731C059911005024E1 /* FirstViewController.m */; };
-		75C7FC761C059911005024E1 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C7FC741C059911005024E1 /* FirstViewController.xib */; };
 		75E579B81C04C89800B04B2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E579B71C04C89800B04B2F /* main.m */; };
 		75E579BB1C04C89800B04B2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E579BA1C04C89800B04B2F /* AppDelegate.m */; };
 		75E579BE1C04C89800B04B2F /* _4Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75E579BC1C04C89800B04B2F /* _4Test.xcdatamodeld */; };
@@ -32,9 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75C7FC721C059911005024E1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		75C7FC731C059911005024E1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		75C7FC741C059911005024E1 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		75C7FC771C059B64005024E1 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		75E579B21C04C89800B04B2F /* 24Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E579B61C04C89800B04B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E579B71C04C89800B04B2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,9 +101,7 @@
 				75E579C71C04C89800B04B2F /* LaunchScreen.xib */,
 				75E579BC1C04C89800B04B2F /* _4Test.xcdatamodeld */,
 				75E579B51C04C89800B04B2F /* Supporting Files */,
-				75C7FC721C059911005024E1 /* FirstViewController.h */,
-				75C7FC731C059911005024E1 /* FirstViewController.m */,
-				75C7FC741C059911005024E1 /* FirstViewController.xib */,
+				75C7FC771C059B64005024E1 /* Header.h */,
 			);
 			path = 24Test;
 			sourceTree = "<group>";
@@ -219,7 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E579C41C04C89800B04B2F /* Main.storyboard in Resources */,
-				75C7FC761C059911005024E1 /* FirstViewController.xib in Resources */,
 				75E579E21C04CA5300B04B2F /* TableViewCell.xib in Resources */,
 				75E579C91C04C89800B04B2F /* LaunchScreen.xib in Resources */,
 				75E579C61C04C89800B04B2F /* Images.xcassets in Resources */,
@@ -241,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E579BE1C04C89800B04B2F /* _4Test.xcdatamodeld in Sources */,
-				75C7FC751C059911005024E1 /* FirstViewController.m in Sources */,
 				75E579BB1C04C89800B04B2F /* AppDelegate.m in Sources */,
 				75E579C11C04C89800B04B2F /* ViewController.m in Sources */,
 				75E579E11C04CA5300B04B2F /* TableViewCell.m in Sources */,

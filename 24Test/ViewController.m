@@ -18,8 +18,6 @@
     [super viewDidLoad];
     NSLog(@"test flayer");
     NSLog(@"test flayer2");
-    NSLog(@"test flayer3");
-    NSLog(@"test flayer4");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
